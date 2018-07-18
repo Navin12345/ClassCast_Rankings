@@ -1,5 +1,4 @@
 from django.db import models
-import datetime
 
 class classcast_student_info(models.Model):
     student_id = models.IntegerField(null=False, primary_key=True)
